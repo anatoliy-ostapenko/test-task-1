@@ -1,15 +1,15 @@
 describe('', function() {
     it('should greet the named user', function() {
-      browser.get('http://www.angularjs.org');
+      browser.get('https://www.sbzend.ssls.com');
   
-      element(by.model('yourName')).sendKeys('Julie');
+      //element(by.model('yourName')).sendKeys('Julie');
   
-      var greeting = element(by.binding('yourName'));
+      //var greeting = element(by.binding('yourName'));
   
-      expect(greeting.getText()).toEqual('Hello Julie!');
+     // expect(greeting.getText()).toEqual('Hello Julie!');
     });
   
-    describe('todo list', function() {
+    xdescribe('todo list', function() {
       var todoList;
   
       beforeEach(function() {
