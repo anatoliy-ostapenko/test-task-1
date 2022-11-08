@@ -54,11 +54,7 @@ export class PlaywrightDevPage{
   async logOut(){
     await this.page.getByRole('button', { name: ' ssls.automation+666@gmail.com' }).click();
     await this.page.getByRole('button', { name: 'Log out' }).click();
-  }
-
-  
- 
-  
+  } 
 
 }
 
