@@ -1,0 +1,4 @@
+Node.js need to be installed, Google Chrome browser need to be installed too.
+Then install Playwright framework using following command: npm init playwright@latest
+Run test in headless mode npx playwright test or headed mode: npx playwright test --headed
+Observe report: npx playwright show-report
